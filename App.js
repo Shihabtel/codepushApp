@@ -12,6 +12,8 @@ function App() {
   return (
     <View style={styles.container}>
       <Text>Login to msales</Text>
+      <Text>Codepush is working successfully</Text>
+      <Text>Good</Text>
       <TouchableOpacity onPress={onButtonPress}>
         <Text>Check for updates</Text>
       </TouchableOpacity>
@@ -21,7 +23,7 @@ function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: 'red',
+    backgroundColor: 'white',
     justifyContent: 'center',
   },
 });
